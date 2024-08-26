@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(21, 12, 12);
+    align-items: center;
+    
+}
+#logo1{
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    &:hover{
+            color: aqua;}
+}
+#logo2{
+    color: aqua;
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  transition: left 0.3s;
+  position: absolute;
+  top: 30px;
+right: 400px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ul li a{
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    transition: 0s;
+    
+}
+
+
+ul li a {
+    position:relative;
+    z-index: 1;
+  }
+ul li a:hover {
+    color: black;
+    background-color: aqua;
+    border-radius: 20px;
+
+  }
+  .button a{
+    padding: 5px 20px 10px 20px ;
+    
+    position: absolute;
+    top: 17px;
+    right: 70px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 2px aqua solid;
+    border-radius: 20px;
+    transition: 0.3s;
+    font-weight: bolder;
+  }
+  .button a:hover{
+    background-color: aqua;
+    color: black;
+    
+  }
+  
+
+  .mid{
+    height: 580px;
+    width: 100%;
+    background-color: black;
+    z-index: -1;
+  }
+  h3{
+    color: white;
+    position: absolute;
+    top: 250px;
+    left: 220px;
+
+  }
+  h1{
+    color: white;
+    position: absolute;
+    top: 260px;
+    left: 200px;
+    font-size: 80px;
+    cursor: pointer;
+   
+  }
+  #gu{
+    color: aqua;
+    position: absolute;
+    top: 350px;
+    left: 190px;
+  }
+  #dh{
+    color: white;
+    position: absolute;
+    top: 260px;
+    left: 350px;
+    font-size: 80px;
+    cursor: pointer;
+    &:hover{
+        color: aqua;
+    }
+  }
+  #img{
+    height: 400px;
+    position: absolute;
+    right: 250px;
+    top: 200px;
+    z-index: 1;
+  }
+  .mid p{
+    width: 400px;
+    color: white;
+    position: absolute;
+    top: 470px;
+    left: 190px;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  .hire a {
+    padding: 5px 20px 10px 20px ;
+    
+    position: absolute;
+    top: 550px;
+    left: 200px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 2px aqua solid;
+    border-radius: 20px;
+    transition: 0.3s;
+    font-weight: bolder;
+  }
+  .hire a:hover{
+    background-color: aqua;
+    color: black;
+    bottom: 10px aqua;
+    
+  }
+  hr{
+    color: aqua;
+    width: 100%;
+    border: 5px aqua solid;
+    position: absolute;
+    top: 650px;
+    
+  }
+  .lower{
+    height: 580px;
+    width: 100%;
+    background-color: black;
+    z-index: -1;
+  }
+  .lower h1{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    top: 750px;
+    left: 450px;
+  }
+  #cv{
+    padding: 5px 20px 10px 20px ;
+    
+    position: absolute;
+    top: 550px;
+    left: 350px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 2px aqua solid;
+    border-radius: 20px;
+    transition: 0.3s;
+    font-weight: bolder;
+  }
+  #cv:hover{
+    background-color: aqua;
+    color: black;
+    bottom: 10px aqua;
+    
+  }
+
+  
+  
+  
