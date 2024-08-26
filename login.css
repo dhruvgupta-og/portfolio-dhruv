@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: opx;
+    background-color: black;
+    font-family: "PT+serif";
+    box-shadow: none;
+}
+
+.main{
+height: 500px;
+width: 500px;
+border: 5px aqua solid;
+position: absolute;
+left: 500px;
+top: 100px;
+
+display: flex;
+justify-content: center;
+box-shadow: 10px red;
+border-radius: 20px;
+}
+#txt{
+color: white;
+position: fixed;
+top: 160px;
+font-weight: bolder;
+font-size: 40px;
+right: 47%;
+
+
+}
+#user{
+    height: 40px;
+    width: 300px;
+    background-color: black;
+    position: absolute;
+    top: 190px;
+    right: 90px;
+    box-shadow: none;
+    border-radius: 20px;
+    border: 2px aqua solid;
+    
+}
+#user::placeholder{
+    color: white;
+    position: relative;
+    left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#use{
+color: white;
+    position: relative;
+    top: 205px;
+    right: 110px;
+    
+}
+#pass{
+    height: 40px;
+    width: 300px;
+    background-color: black;
+    position: absolute;
+    top: 260px;
+    right: 90px;
+    border-radius: 20px;
+    border: 2px aqua solid;
+}
+#pass::placeholder{
+    color: white;
+    position: relative;
+    left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#pas{
+    color: white;
+    position: relative;
+    top: 275px;
+    right: 130px;
+}
+#rem{
+color: white;
+background-color: white;
+position: absolute;
+top: 323px;
+left: 90px;
+
+}
+
+#pa{
+    height: 40px;
+    width: 300px;
+    color: white;
+    position: absolute;
+    top: 320px;
+    right: 90px;
+    border-radius: 20px;
+}
+#but{
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 400px;
+    right: 90px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px aqua solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#but:hover{
+    background-color: aqua;
+    transition: 0.5s;
+    color: black;
+    font-size: 20px;
+    
+}
